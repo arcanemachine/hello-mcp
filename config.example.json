@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "time": {
+      "command": "uv",
+      "args": ["run", "mcp-server-time", "--local-timezone=America/Edmonton"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "ddg-search": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"]
+    }
+  }
+}
