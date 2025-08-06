@@ -1,2 +1,0 @@
-mcp-server-time
-mcp-server-fetch
