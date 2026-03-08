@@ -19,7 +19,9 @@ I used [this Medium article](https://mychen76.medium.com/mcpo-supercharge-open-w
 
 - Copy the example JSON config to the gitignored location: `cp config.example.json config.local.json`
 
-- Start the MCP server: `./start-mcp-server.sh`
+- Start the MCP server:
+  - mcp-proxy (for llama-server): `./start-mcp-proxy.sh`
+  - mcpo (for Open WebUI): `./start-mcpo.sh`
 
 - Start Open WebUI
 
