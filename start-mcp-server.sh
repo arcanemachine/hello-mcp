@@ -1,1 +1,3 @@
-uvx mcpo --config config.local.json --port 8000
+echo "WARNING: Start MCP server on all interfaces (0.0.0.0) to work around a llama-server CORS issue..."
+sleep 1
+uvx mcpo --config config.local.json --host 0.0.0.0 --port 8000
