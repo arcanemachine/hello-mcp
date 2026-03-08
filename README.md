@@ -1,4 +1,11 @@
-# Hello MCP!
+# Hello MCP
+
+## TLDR
+
+- For SSE (llama-server), use `./start-mcp-proxy.sh`.
+- For HTTP (OpenWebUI), use `./start-mcpo.sh`
+
+---
 
 My first adventure with MCP. Uses Open WebUI + Ollama + mcpo.
 
